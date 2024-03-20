@@ -1,0 +1,30 @@
+.bg-body-tertiary{
+    background-color: #049bd7!important;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#principal{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner{
+    height: 377px;
+}
+
+.carousel-item{
+    max-height: 377px;
+}
+
+@media (min-width: 1400px){
+    .navbar-expand-lg{
+        max-width: 1320px;
+    }
+}
