@@ -2,6 +2,9 @@ body{
     background-color: #049bd7!important;
 }
 
+.header-branding-logo{
+    max-width: 139px; 
+}
 
 .bg-body-tertiary{
     background-color: #049bd7!important;
@@ -106,8 +109,22 @@ body{
     color: red !important;
 }
 
-@media (min-width: 1400px){
-    .navbar-expand-lg{
-        max-width: 1320px;
-    }
+.icon{
+    width: 50px;
 }
+
+.icon a{
+    color: #000;
+}
+
+.sign{
+    width: 259px;
+    padding: 0!important;
+}
+
+.sign p {
+    width: 259px;
+    margin: 0!important;
+}
+
+
