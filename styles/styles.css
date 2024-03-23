@@ -35,6 +35,7 @@ body{
     letter-spacing: .06em;
     line-height: 1.8em;    
     color: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .tour-item{
@@ -89,6 +90,20 @@ body{
     -webkit-transition: background 0.2s ease-in-out;
     -o-transition: background 0.2s ease-in-out;
     transition: background 0.2s ease-in-out;
+}
+
+.sold-out{
+    background: red !important;
+    color: white !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+
+.sold-out:hover{
+    text-decoration: line-through;
+    border: none !important;
+    background: none !important;
+    color: red !important;
 }
 
 @media (min-width: 1400px){
